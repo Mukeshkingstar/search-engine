@@ -1,0 +1,33 @@
+*{
+    font-family: 'Outfit', sans-serif;
+}body{
+    margin: 0;
+    background: #8000ff;
+}.box{
+    margin-top: 35%;
+    background: white;
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+}h1{
+    font-size: 44px;
+    margin: 0px;
+    margin-top: 30px;
+    color:#8000ff;
+    padding: 15px;
+}input{
+    padding: 10px;
+    width: 200px;
+    border-radius: 20px;
+    background: white;
+    border: 2px solid #8000ff;
+}button{
+    border: none;
+    background: #8000ff;
+    color: #fff;
+    padding: 10px;
+    margin-top: 5px;
+    font-size: 18px;
+    width:220px ;
+    border-radius:20px ;
+}
