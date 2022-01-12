@@ -4,11 +4,15 @@
     margin: 0;
     background: #8000ff;
 }.box{
-    margin-top: 35%;
+    margin: auto;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
     background: white;
     width: 300px;
     height: 200px;
     border-radius: 10px;
+    margin-top: 200px;
 }h1{
     font-size: 44px;
     margin: 0px;
