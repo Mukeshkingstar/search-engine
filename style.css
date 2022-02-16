@@ -1,8 +1,8 @@
 *{
     font-family: 'Outfit', sans-serif;
 }:root{
-    --main-color:linear-gradient(90deg,rgba(128,0,255,1)53%,rgba(150,0,255,1)83%
-    )
+    --main-color:
+  linear-gradient(90deg, rgba(255,0,0,1) 53%, rgba(255,140,0,1) 93%);
 }body{
     margin: 0;
     background: var(--main-color);
@@ -29,7 +29,7 @@
     width: 200px;
     border-radius: 20px;
     background: white;
-    border: 2px solid #8000ff;
+    border: 2px solid rgba(255,0,0,1) ;
     outline: none;
 }button{
     border: none;
