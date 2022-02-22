@@ -2,20 +2,22 @@
     font-family: 'Outfit', sans-serif;
 }:root{
     --main-color:
-  linear-gradient(90deg, rgba(255,0,0,1) 53%, rgba(255,140,0,1) 93%);
+ #8500FF
 }body{
     margin: 0;
-    background: var(--main-color);
+    background: white;
 }.box{
     margin: auto;
     margin-right: auto;
     margin-left: auto;
     display: block;
-    background: white;
+    background: var(--main-color);
     width: 300px;
     height: 200px;
     border-radius: 10px;
     margin-top: 200px;
+    padding-bottom: 20px
+   
 }h1{
     font-size: 44px;
     margin: 0px;
@@ -29,15 +31,34 @@
     width: 200px;
     border-radius: 20px;
     background: white;
-    border: 2px solid rgba(255,0,0,1) ;
+    border: 2px solid white;
     outline: none;
 }button{
     border: none;
-    background: var(--main-color);
-    color: #fff;
+    background: white;
+    color:var(--main-color);
     padding: 10px;
     margin-top: 5px;
     font-size: 18px;
     width:220px ;
     border-radius:20px ;
+}
+footer{
+background: #202020;
+margin-top: 250px;
+color: white;
+padding: 10px;
+font-weight: 900;
+text-align:left
+}
+*{
+  list-style: none;
+  
+  text-decoration: none;
+  
+}a{
+  color: white;
+  
+}li{
+  margin-top: 5px
 }
